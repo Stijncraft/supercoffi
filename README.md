@@ -1,26 +1,37 @@
-# supercoffi
+# Super Coffi
 
-Minecraft-mod "Super Coffi" voor **Minecraft 26.1.2** met **NeoForge 26.1.2** (Java 25).
+Een Minecraft-mod van [Stijncraft](https://stijncraft.nl) met eigen wapens, pantsers, twee portals naar nieuwe werelden en een eigen monster.
 
-Bevat o.a. zwaarden, pantsers, een pikhouweel, twee portals (Diamont en Irond), het blok Starbuks en de mob Soulskeleton.
+**Voor:** Minecraft 26.1.2 met NeoForge 26.1.2
 
-## Spelen
-- Installeer [NeoForge 26.1.2](https://neoforged.net) (via een launcher of de installer).
-- Zet `supercoffi-1.0.0.jar` in de map `mods` van het NeoForge-profiel.
+## Wat zit erin?
 
-`supercoffi-1.0.0-neoforge-26.1.2.jar` in de root is de oorspronkelijke build. De bron staat nu in `src/`.
+**Wapens en gereedschap**
+Shadosword, Soulsword, Eteblediamantsword, Starege, Jayschains, Staf, Axee, Prism axe, Prism schild, Shadowshild, Shadowshite, Shite, Superschite, SUPE Rschit, fire_sword
 
-## Ontwikkelen
-Vereist: alleen Git. Gradle downloadt zelf JDK 25.
+**Pantsers**
+Redstone-pantser en Prismarmor (helm, borstplaat, broek en schoenen)
 
-```powershell
-.\gradlew.bat runClient   # game starten om te testen
-.\gradlew.bat build       # jar bouwen in build\libs
-```
+**Eten en drinken**
+Coffi en het blok Starbuks
 
-Werkwijze: maak een branch per wijziging (bijv. `kleur-zwaard`), test met `runClient`, voeg daarna samen met `main`.
+**Portals en werelden**
+Met de *Diamont Portal Igniter* en de *Irond Portal Igniter* open je een portal naar een eigen dimensie.
 
-## Herkomst
-De code is gereconstrueerd uit de gebouwde jar (decompilatie) en opgeschoond tot een NeoForge-MDK-project. Het is dus mogelijk dat details afwijken van de eerste versie.
+**Monsters**
+De Soulskeleton, met een eigen spawn egg. Hij verschijnt ook in de wereld.
 
-Gebaseerd op de NeoForge MDK-template (zie `TEMPLATE_LICENSE.txt`).
+**Zielen**
+Soul en Soulkeeper
+
+Alles vind je in de creative-modus op het tabblad van Super Coffi.
+
+## Installeren
+1. Installeer **NeoForge 26.1.2** via [neoforged.net](https://neoforged.net) of via een launcher zoals Prism Launcher of de Modrinth-app.
+2. Download `supercoffi-1.0.0.jar` en zet hem in de map `mods` van het NeoForge-profiel.
+3. Start Minecraft met dat profiel.
+
+Voor een server geldt hetzelfde: NeoForge 26.1.2 op de server, en alle spelers hebben dezelfde jar nodig.
+
+## Zelf aan de mod werken
+Zie [DEVELOPING.md](DEVELOPING.md).
