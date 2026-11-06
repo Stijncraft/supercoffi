@@ -1,25 +1,26 @@
+# supercoffi
 
-Installation information
-=======
+Minecraft-mod "Super Coffi" voor **Minecraft 26.1.2** met **NeoForge 26.1.2** (Java 25).
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Bevat o.a. zwaarden, pantsers, een pikhouweel, twee portals (Diamont en Irond), het blok Starbuks en de mob Soulskeleton.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Spelen
+- Installeer [NeoForge 26.1.2](https://neoforged.net) (via een launcher of de installer).
+- Zet `supercoffi-1.0.0.jar` in de map `mods` van het NeoForge-profiel.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+`supercoffi-1.0.0-neoforge-26.1.2.jar` in de root is de oorspronkelijke build. De bron staat nu in `src/`.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## Ontwikkelen
+Vereist: alleen Git. Gradle downloadt zelf JDK 25.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+```powershell
+.\gradlew.bat runClient   # game starten om te testen
+.\gradlew.bat build       # jar bouwen in build\libs
+```
+
+Werkwijze: maak een branch per wijziging (bijv. `kleur-zwaard`), test met `runClient`, voeg daarna samen met `main`.
+
+## Herkomst
+De code is gereconstrueerd uit de gebouwde jar (decompilatie) en opgeschoond tot een NeoForge-MDK-project. Het is dus mogelijk dat details afwijken van de eerste versie.
+
+Gebaseerd op de NeoForge MDK-template (zie `TEMPLATE_LICENSE.txt`).
