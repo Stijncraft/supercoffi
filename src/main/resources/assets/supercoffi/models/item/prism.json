@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "supercoffi:item/chatgpt-afbeelding_14_okt_2026_07_50_55"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "supercoffi:item/paarse_runenschild_met_aura"
+  }
+}

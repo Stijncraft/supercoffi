@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "supercoffi:prismarmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "supercoffi:prismarmor"
+      }
+    ]
+  }
+}

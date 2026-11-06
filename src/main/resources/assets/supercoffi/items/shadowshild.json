@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "supercoffi:item/shadowshild"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "supercoffi:item/shadowshild_blocking"
+    },
+    "property": "minecraft:using_item"
+  }
+}

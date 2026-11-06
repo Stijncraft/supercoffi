@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:redstone"
+  },
+  "result": {
+    "id": "supercoffi:redstone_chestplate",
+    "count": 1
+  }
+}

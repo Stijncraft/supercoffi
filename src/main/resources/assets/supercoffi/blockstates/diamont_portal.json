@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "supercoffi:block/diamont_portal_ew"
+    },
+    "axis=x": {
+      "model": "supercoffi:block/diamont_portal_ns"
+    }
+  }
+}

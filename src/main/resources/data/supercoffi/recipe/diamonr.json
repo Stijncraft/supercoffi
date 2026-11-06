@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "#minecraft:logs",
+    "b": "#minecraft:planks"
+  },
+  "result": {
+    "id": "supercoffi:diamont",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:redstone"
+  },
+  "result": {
+    "id": "supercoffi:redstone_helmet",
+    "count": 1
+  }
+}

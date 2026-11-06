@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "soulsword",
+  "category": "redstone",
+  "ingredients": [
+    "supercoffi:soul",
+    "supercoffi:soul",
+    "supercoffi:soul",
+    "supercoffi:soul",
+    "minecraft:diamond_sword"
+  ],
+  "result": {
+    "id": "supercoffi:soulsword",
+    "count": 1
+  }
+}

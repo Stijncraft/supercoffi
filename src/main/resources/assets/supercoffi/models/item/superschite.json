@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "supercoffi:item/67e26d643def491be99a2c03_magiscythe"
+  }
+}

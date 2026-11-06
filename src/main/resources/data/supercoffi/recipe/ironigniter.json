@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "b "
+  ],
+  "key": {
+    "a": "minecraft:stone_sword",
+    "b": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "supercoffi:irond",
+    "count": 1
+  }
+}
